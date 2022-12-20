@@ -11,6 +11,8 @@
 		C4BECF71295094D40008A85A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BECF70295094D40008A85A /* ContentView.swift */; };
 		C4BECF73295094D50008A85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BECF72295094D50008A85A /* Assets.xcassets */; };
 		C4BECF76295094D50008A85A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BECF75295094D50008A85A /* Preview Assets.xcassets */; };
+		C4BECF7D295094FD0008A85A /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BECF7C295094FD0008A85A /* SliderUIKit.swift */; };
+		C4BECF81295215CB0008A85A /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BECF80295215CB0008A85A /* GameManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C4BECF70295094D40008A85A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4BECF72295094D50008A85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4BECF75295094D50008A85A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4BECF7C295094FD0008A85A /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
+		C4BECF80295215CB0008A85A /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C4BECF6E295094D40008A85A /* GuessNumberSwiftUI_UIKItApp.swift */,
 				C4BECF70295094D40008A85A /* ContentView.swift */,
+				C4BECF80295215CB0008A85A /* GameManager.swift */,
+				C4BECF7C295094FD0008A85A /* SliderUIKit.swift */,
 				C4BECF72295094D50008A85A /* Assets.xcassets */,
 				C4BECF74295094D50008A85A /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BECF81295215CB0008A85A /* GameManager.swift in Sources */,
 				C4BECF71295094D40008A85A /* ContentView.swift in Sources */,
+				C4BECF7D295094FD0008A85A /* SliderUIKit.swift in Sources */,
 				C4BECF6F295094D40008A85A /* GuessNumberSwiftUI_UIKItApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
